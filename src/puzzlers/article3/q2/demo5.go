@@ -14,7 +14,7 @@ func init() {
 
 func main() {
 	flag.Parse()
-	lib.Hello(name)
+	lib5.Hello(name)
 
 	//lib5 为限定符
 }
@@ -24,7 +24,7 @@ func main() {
 
 
 // (1) import 是根据目录名导入
-// (2) 限定符，是根据 packge 名称导入
+// (2) 限定符，是根据 packge 名称导入  ，如声明是 lib5, 调用的时候就得是lb5的方式来调用
 // (3) 手写字母大写 、可以供包外程序调用
 //（4） internal 模块化私有
 
